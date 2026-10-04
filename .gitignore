@@ -1,6 +1,35 @@
+# Data folders and large files
+data/
+datasets/
+*.h5ad
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar.gz
+
+# Model checkpoints
+*.pt
+*.ckpt
+*.pkl
+*.npy
+*.npz
+
+# Results (keep only small plots, ignore large outputs)
+results/*.h5ad
+results/*.csv
+results/*.pkl
+results/*.npy
+results/*.npz
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-data/raw/
-results/*.h5ad
+
+# System files
+.DS_Store
+*.swp
 
